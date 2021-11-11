@@ -76,7 +76,6 @@ func (c *urlChecker) Check(urls []string) {
 				fmt.Fprintf(os.Stderr, "ERROR: check for url '%s' failed with: %s\n", res.url, res.err)
 				continue
 			}
-			res := res
 			successResults = append(successResults, res)
 		}
 

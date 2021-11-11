@@ -1,4 +1,4 @@
-# URL Checker
+# URLs Checker
 
 Yet another URLs checker. It interprets all incoming parameters as a URL and sends
 GET requests on each of them, reads whole response body, and prints summary in the STDOUT in a view:
