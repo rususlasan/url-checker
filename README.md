@@ -21,3 +21,17 @@ http://google.com 16856
 http://avito.ru 902250
 
 ```
+
+### Build with Bazel
+
+**Build binary**
+
+```
+> bazel build //:url-checker
+```
+
+**Build pkg/checker library**
+
+```
+> bazel build //pkg/checker:pkg_checker_library
+```

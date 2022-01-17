@@ -1,9 +1,9 @@
-load("@bazel_tools//tools/build_rules:go/def.bzl", "go_prefix", "go_library")
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
 
 #go_prefix("github.com/rususlasan/url-checker/pkg/checker")
 
 go_library(
-    name = "go_default_library",
+    name = "pkg_checker_library",
     srcs = [ "checker.go" ],
     importpath = "github.com/rususlasan/url-checker/pkg/checker",
     visibility = ["//visibility:public"],
