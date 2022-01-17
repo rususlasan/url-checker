@@ -3,10 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"os"
+	//"os"
 	"time"
 
-	"github.com/rususlasan/url-checker/pkg/checker"
+	//"github.com/rususlasan/url-checker/pkg/checker"
 )
 
 const (
@@ -16,10 +16,11 @@ const (
 
 func main() {
 	flag.Parse()
-	urlChecker, err := checker.NewChecker(concurrency, timeout)
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
-	}
-	urlChecker.Check(flag.Args())
+	fmt.Println(flag.Args())
+	//urlChecker, err := checker.NewChecker(concurrency, timeout)
+	//if err != nil {
+	//	fmt.Println(err)
+	//	os.Exit(1)
+	//}
+	//urlChecker.Check(flag.Args())
 }

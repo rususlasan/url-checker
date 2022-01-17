@@ -1,3 +1,11 @@
 # IDEA files
 .idea
+.ijwb
+
+# bazel generated folders
+bazel-*
+
+# bazel binary
+bazel
+
 
